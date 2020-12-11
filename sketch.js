@@ -166,6 +166,10 @@ function draw() {
  line14.bounceOff(line15)
  line14.bounceOff(line12);
  
+  if(mousePressedOver(texts)) {
+  texts.visible=false;
+}
+
 
 
   if(keyDown("up_arrow")){
